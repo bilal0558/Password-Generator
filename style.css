@@ -1,13 +1,19 @@
 body{
     background: #121212;
+    color: #FFFFFF;
+    font-family: sans-serif;
 }
 
 .container{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+}
+
+h1{
+    margin: 0 0 20px 0;
 }
 
 .box{
